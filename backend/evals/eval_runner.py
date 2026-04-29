@@ -149,8 +149,11 @@ async def main():
     rows = []
     total_score = 0.0
     max_score = 0.0
+    inter_case_sleep = float(os.getenv("EVAL_INTER_CASE_SLEEP", "8"))
     async with httpx.AsyncClient() as client:
-        for case in cases:
+        for i, case in enumerate(cases):
+            if i > 0 and case["type"] == "auto":
+                await asyncio.sleep(inter_case_sleep)
             print(f"\n[{case['id']}] {case['name']}")
             try:
                 score, note = await execute_case(client, case)
