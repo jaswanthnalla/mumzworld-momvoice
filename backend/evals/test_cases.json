@@ -1,0 +1,118 @@
+[
+  {
+    "id": "TC01",
+    "name": "Standard product, 47 reviews",
+    "type": "auto",
+    "fixture": "chicco_next2me_crib",
+    "checks": ["reliable_true", "confidence_min:0.6", "headline_words_max:20"]
+  },
+  {
+    "id": "TC02",
+    "name": "Safety concern surfaces from a small number of reviews",
+    "type": "auto",
+    "fixture": "chicco_next2me_crib",
+    "checks": ["has_concern_severity:safety"]
+  },
+  {
+    "id": "TC03",
+    "name": "Conflicting fold opinions surface as 'mixed'",
+    "type": "auto",
+    "fixture": "maclaren_quest_stroller",
+    "checks": ["summary_contains:mixed"]
+  },
+  {
+    "id": "TC04",
+    "name": "Only 3 reviews",
+    "type": "auto",
+    "fixture": "chicco_next2me_crib",
+    "limit": 3,
+    "checks": ["reliable_false", "confidence_max:0.4"]
+  },
+  {
+    "id": "TC05",
+    "name": "All delivery reviews, no product info",
+    "type": "auto",
+    "inline_reviews": [
+      {"id": 1, "text": "Delivery was 3 days late, terrible.", "rating": 1, "language": "en", "verified_purchase": true, "helpful_votes": 1, "date": "2024-09-15"},
+      {"id": 2, "text": "Box arrived crushed.", "rating": 2, "language": "en", "verified_purchase": true, "helpful_votes": 0, "date": "2024-09-16"},
+      {"id": 3, "text": "Courier rude. Packaging fine.", "rating": 2, "language": "en", "verified_purchase": true, "helpful_votes": 0, "date": "2024-09-17"},
+      {"id": 4, "text": "التوصيل تأخر يومين.", "rating": 2, "language": "ar", "verified_purchase": true, "helpful_votes": 0, "date": "2024-09-18"},
+      {"id": 5, "text": "الكرتون كان مفتوح.", "rating": 1, "language": "ar", "verified_purchase": true, "helpful_votes": 0, "date": "2024-09-19"}
+    ],
+    "product_name": "Test Product",
+    "checks": ["reliable_false", "data_gaps_nonempty"]
+  },
+  {
+    "id": "TC06",
+    "name": "Arabic-only reviews",
+    "type": "auto",
+    "fixture": "chicco_next2me_crib",
+    "language_filter": "ar",
+    "checks": ["headline_en_nonempty", "headline_ar_nonempty"]
+  },
+  {
+    "id": "TC07",
+    "name": "Age-specific feedback",
+    "type": "auto",
+    "fixture": "chicco_next2me_crib",
+    "checks": ["age_contains:0-3 months"]
+  },
+  {
+    "id": "TC08",
+    "name": "Empty reviews list returns 400",
+    "type": "auto",
+    "inline_reviews": [],
+    "product_name": "Empty Product",
+    "expect_status": 400
+  },
+  {
+    "id": "TC09",
+    "name": "50 identical 5-star reviews (spam)",
+    "type": "auto",
+    "spam": true,
+    "product_name": "Spam Product",
+    "checks": ["confidence_max:0.6", "data_gaps_nonempty"]
+  },
+  {
+    "id": "TC10",
+    "name": "Mixed EN+AR 60/40 split",
+    "type": "auto",
+    "fixture": "medela_swing_pump",
+    "checks": ["reliable_true"]
+  },
+  {
+    "id": "TC11",
+    "name": "Safety concern + otherwise positive",
+    "type": "auto",
+    "fixture": "chicco_next2me_crib",
+    "checks": ["has_concern_severity:safety", "headline_not_purely_positive"]
+  },
+  {
+    "id": "TC12",
+    "name": "Arabic quality (manual)",
+    "type": "manual",
+    "fixture": "chicco_next2me_crib",
+    "rubric": "0=machine-translated, 1=acceptable, 2=native"
+  },
+  {
+    "id": "TC13",
+    "name": "Grounding check (manual)",
+    "type": "manual",
+    "fixture": "chicco_next2me_crib",
+    "rubric": "0=hallucinated, 2=supported"
+  },
+  {
+    "id": "TC14",
+    "name": "Latency under 10 seconds",
+    "type": "auto",
+    "fixture": "chicco_next2me_crib",
+    "checks": ["latency_max_seconds:10"]
+  },
+  {
+    "id": "TC15",
+    "name": "Pydantic schema violation returns 422",
+    "type": "auto",
+    "mock_invalid": true,
+    "expect_status": 422
+  }
+]

@@ -1,0 +1,427 @@
+{
+  "product_id": "maclaren_quest_stroller",
+  "product_name": "Maclaren Quest Stroller",
+  "review_count": 42,
+  "reviews": [
+    {
+      "id": 1,
+      "text": "Lightweight enough to carry up our apartment stairs with one hand while holding the baby.",
+      "rating": 5,
+      "language": "en",
+      "verified_purchase": true,
+      "helpful_votes": 26,
+      "date": "2024-09-15",
+      "reviewer_child_age": "1-3y"
+    },
+    {
+      "id": 2,
+      "text": "Folds in 3 seconds — saved me at the airport with a screaming toddler.",
+      "rating": 5,
+      "language": "en",
+      "verified_purchase": true,
+      "helpful_votes": 13,
+      "date": "2024-10-02",
+      "reviewer_child_age": "1-3y"
+    },
+    {
+      "id": 3,
+      "text": "Reclines almost flat for naps on the go.",
+      "rating": 4,
+      "language": "en",
+      "verified_purchase": false,
+      "helpful_votes": 19,
+      "date": "2024-10-21",
+      "reviewer_child_age": "3-12m"
+    },
+    {
+      "id": 4,
+      "text": "Wheels handle uneven Dubai pavements better than I expected.",
+      "rating": 4,
+      "language": "en",
+      "verified_purchase": true,
+      "helpful_votes": 6,
+      "date": "2024-11-04",
+      "reviewer_child_age": "1-3y"
+    },
+    {
+      "id": 5,
+      "text": "Sun canopy is generous — covers her face completely even in afternoon sun.",
+      "rating": 5,
+      "language": "en",
+      "verified_purchase": true,
+      "helpful_votes": 16,
+      "date": "2024-11-19",
+      "reviewer_child_age": "1-3y"
+    },
+    {
+      "id": 6,
+      "text": "Easy to fold one-handed once you get the hang of it.",
+      "rating": 4,
+      "language": "en",
+      "verified_purchase": true,
+      "helpful_votes": 15,
+      "date": "2024-12-08",
+      "reviewer_child_age": "1-3y"
+    },
+    {
+      "id": 7,
+      "text": "Storage basket is small but fits a small backpack and water bottle.",
+      "rating": 3,
+      "language": "en",
+      "verified_purchase": true,
+      "helpful_votes": 26,
+      "date": "2024-12-22",
+      "reviewer_child_age": "1-3y"
+    },
+    {
+      "id": 8,
+      "text": "Smooth steering with one hand even on grass.",
+      "rating": 4,
+      "language": "en",
+      "verified_purchase": true,
+      "helpful_votes": 1,
+      "date": "2025-01-10",
+      "reviewer_child_age": "1-3y"
+    },
+    {
+      "id": 9,
+      "text": "Held my 18 month old comfortably. Will see how it goes as he grows.",
+      "rating": 4,
+      "language": "en",
+      "verified_purchase": false,
+      "helpful_votes": 5,
+      "date": "2025-01-28",
+      "reviewer_child_age": "1-3y"
+    },
+    {
+      "id": 10,
+      "text": "Easy to fit in the boot of a small sedan after folding.",
+      "rating": 5,
+      "language": "en",
+      "verified_purchase": true,
+      "helpful_votes": 20,
+      "date": "2025-02-14",
+      "reviewer_child_age": "1-3y"
+    },
+    {
+      "id": 11,
+      "text": "Used it for a 2-week Europe trip — survived flights and cobblestones.",
+      "rating": 5,
+      "language": "en",
+      "verified_purchase": true,
+      "helpful_votes": 30,
+      "date": "2024-09-15",
+      "reviewer_child_age": "1-3y"
+    },
+    {
+      "id": 12,
+      "text": "Five-point harness is secure and adjusts as baby grows.",
+      "rating": 5,
+      "language": "en",
+      "verified_purchase": true,
+      "helpful_votes": 19,
+      "date": "2024-10-02",
+      "reviewer_child_age": "3-12m"
+    },
+    {
+      "id": 13,
+      "text": "Frame feels solid despite being light. Aluminium not flimsy plastic.",
+      "rating": 5,
+      "language": "en",
+      "verified_purchase": true,
+      "helpful_votes": 26,
+      "date": "2024-10-21",
+      "reviewer_child_age": "1-3y"
+    },
+    {
+      "id": 14,
+      "text": "Recline is quick — useful when she falls asleep mid-walk.",
+      "rating": 4,
+      "language": "en",
+      "verified_purchase": true,
+      "helpful_votes": 10,
+      "date": "2024-11-04",
+      "reviewer_child_age": "1-3y"
+    },
+    {
+      "id": 15,
+      "text": "Stylish design, the navy color hides dirt well.",
+      "rating": 5,
+      "language": "en",
+      "verified_purchase": true,
+      "helpful_votes": 27,
+      "date": "2024-11-19",
+      "reviewer_child_age": "1-3y"
+    },
+    {
+      "id": 16,
+      "text": "Hard to fold one-handed — needs both hands and a knee on most days.",
+      "rating": 2,
+      "language": "en",
+      "verified_purchase": true,
+      "helpful_votes": 10,
+      "date": "2024-12-08",
+      "reviewer_child_age": "1-3y"
+    },
+    {
+      "id": 17,
+      "text": "Folds easily for some — for me it took 2 weeks of practice. Still useful.",
+      "rating": 3,
+      "language": "en",
+      "verified_purchase": true,
+      "helpful_votes": 19,
+      "date": "2024-12-22",
+      "reviewer_child_age": "1-3y"
+    },
+    {
+      "id": 18,
+      "text": "Wheels squeak after 3 months of daily use. Need WD-40 every few weeks.",
+      "rating": 3,
+      "language": "en",
+      "verified_purchase": true,
+      "helpful_votes": 26,
+      "date": "2025-01-10",
+      "reviewer_child_age": "1-3y"
+    },
+    {
+      "id": 19,
+      "text": "Recline mechanism is fiddly — strap pulls instead of a button.",
+      "rating": 3,
+      "language": "en",
+      "verified_purchase": true,
+      "helpful_votes": 11,
+      "date": "2025-01-28",
+      "reviewer_child_age": "1-3y"
+    },
+    {
+      "id": 20,
+      "text": "Not great for newborns despite the recline. Bought a separate carrycot.",
+      "rating": 2,
+      "language": "en",
+      "verified_purchase": false,
+      "helpful_votes": 2,
+      "date": "2025-02-14",
+      "reviewer_child_age": "0-3m"
+    },
+    {
+      "id": 21,
+      "text": "Tipped backward when I hung my heavy diaper bag on the handles. Lesson learned.",
+      "rating": 2,
+      "language": "en",
+      "verified_purchase": true,
+      "helpful_votes": 22,
+      "date": "2024-09-15",
+      "reviewer_child_age": "1-3y"
+    },
+    {
+      "id": 22,
+      "text": "Storage basket too small for grocery runs.",
+      "rating": 2,
+      "language": "en",
+      "verified_purchase": true,
+      "helpful_votes": 27,
+      "date": "2024-10-02",
+      "reviewer_child_age": "1-3y"
+    },
+    {
+      "id": 23,
+      "text": "Handles got hot in the Dubai sun — I wrap them now.",
+      "rating": 3,
+      "language": "en",
+      "verified_purchase": true,
+      "helpful_votes": 21,
+      "date": "2024-10-21",
+      "reviewer_child_age": "1-3y"
+    },
+    {
+      "id": 24,
+      "text": "After a year, fabric on the seat is showing wear. Quality slipping?",
+      "rating": 3,
+      "language": "en",
+      "verified_purchase": false,
+      "helpful_votes": 8,
+      "date": "2024-11-04",
+      "reviewer_child_age": "1-3y"
+    },
+    {
+      "id": 25,
+      "text": "Brake pedal stopped engaging fully after 8 months. I keep it in mind on slopes.",
+      "rating": 2,
+      "language": "en",
+      "verified_purchase": false,
+      "helpful_votes": 1,
+      "date": "2024-11-19",
+      "reviewer_child_age": "1-3y"
+    },
+    {
+      "id": 26,
+      "text": "Cup holder is sold separately and is overpriced.",
+      "rating": 3,
+      "language": "en",
+      "verified_purchase": true,
+      "helpful_votes": 13,
+      "date": "2024-12-08",
+      "reviewer_child_age": "1-3y"
+    },
+    {
+      "id": 27,
+      "text": "My toddler wriggles out of the harness — adjustment is finicky.",
+      "rating": 2,
+      "language": "en",
+      "verified_purchase": true,
+      "helpful_votes": 22,
+      "date": "2024-12-22",
+      "reviewer_child_age": "1-3y"
+    },
+    {
+      "id": 28,
+      "text": "Box arrived damaged but stroller was fine. Mumzworld helped with claim.",
+      "rating": 3,
+      "language": "en",
+      "verified_purchase": true,
+      "helpful_votes": 24,
+      "date": "2025-01-10",
+      "reviewer_child_age": null
+    },
+    {
+      "id": 29,
+      "text": "Delivery took 6 days, longer than the 2 day estimate.",
+      "rating": 2,
+      "language": "en",
+      "verified_purchase": true,
+      "helpful_votes": 20,
+      "date": "2025-01-28",
+      "reviewer_child_age": null
+    },
+    {
+      "id": 30,
+      "text": "خفيفة الوزن وأقدر أحملها بيد واحدة مع الطفل.",
+      "rating": 5,
+      "language": "ar",
+      "verified_purchase": true,
+      "helpful_votes": 13,
+      "date": "2025-02-14",
+      "reviewer_child_age": "1-3y"
+    },
+    {
+      "id": 31,
+      "text": "تنطوي بسرعة، أنقذتني في المطار.",
+      "rating": 5,
+      "language": "ar",
+      "verified_purchase": true,
+      "helpful_votes": 14,
+      "date": "2024-09-15",
+      "reviewer_child_age": "1-3y"
+    },
+    {
+      "id": 32,
+      "text": "الإطار قوي رغم خفة الوزن. شغل ممتاز.",
+      "rating": 5,
+      "language": "ar",
+      "verified_purchase": true,
+      "helpful_votes": 10,
+      "date": "2024-10-02",
+      "reviewer_child_age": "1-3y"
+    },
+    {
+      "id": 33,
+      "text": "صعب طيها بيد واحدة، تحتاج تمرين. مش سهلة زي ما يقولون.",
+      "rating": 2,
+      "language": "ar",
+      "verified_purchase": true,
+      "helpful_votes": 4,
+      "date": "2024-10-21",
+      "reviewer_child_age": "1-3y"
+    },
+    {
+      "id": 34,
+      "text": "العجلات تصدر صوت إزعاج بعد ٣ أشهر استخدام.",
+      "rating": 3,
+      "language": "ar",
+      "verified_purchase": true,
+      "helpful_votes": 8,
+      "date": "2024-11-04",
+      "reviewer_child_age": "1-3y"
+    },
+    {
+      "id": 35,
+      "text": "المظلة كبيرة وتغطي البنت بالكامل من الشمس.",
+      "rating": 5,
+      "language": "ar",
+      "verified_purchase": true,
+      "helpful_votes": 16,
+      "date": "2024-11-19",
+      "reviewer_child_age": "1-3y"
+    },
+    {
+      "id": 36,
+      "text": "سلة التخزين صغيرة جداً، ما تكفي.",
+      "rating": 2,
+      "language": "ar",
+      "verified_purchase": true,
+      "helpful_votes": 13,
+      "date": "2024-12-08",
+      "reviewer_child_age": "1-3y"
+    },
+    {
+      "id": 37,
+      "text": "استخدمتها بسفر طويل ومشت معي على كل أنواع الأرضيات.",
+      "rating": 5,
+      "language": "ar",
+      "verified_purchase": false,
+      "helpful_votes": 0,
+      "date": "2024-12-22",
+      "reviewer_child_age": "1-3y"
+    },
+    {
+      "id": 38,
+      "text": "الفرامل ضعفت بعد ٨ أشهر، صرت أحذر بالمنحدرات.",
+      "rating": 2,
+      "language": "ar",
+      "verified_purchase": false,
+      "helpful_votes": 29,
+      "date": "2025-01-10",
+      "reviewer_child_age": "1-3y"
+    },
+    {
+      "id": 39,
+      "text": "التوصيل تأخر يومين عن الموعد المتوقع.",
+      "rating": 3,
+      "language": "ar",
+      "verified_purchase": false,
+      "helpful_votes": 26,
+      "date": "2025-01-28",
+      "reviewer_child_age": null
+    },
+    {
+      "id": 40,
+      "text": "الحزام مريح وآمن، يعدل مع نمو الطفل.",
+      "rating": 5,
+      "language": "ar",
+      "verified_purchase": true,
+      "helpful_votes": 15,
+      "date": "2025-02-14",
+      "reviewer_child_age": "3-12m"
+    },
+    {
+      "id": 41,
+      "text": "سعرها عالي لكن جودتها تستاهل.",
+      "rating": 4,
+      "language": "ar",
+      "verified_purchase": false,
+      "helpful_votes": 25,
+      "date": "2024-09-15",
+      "reviewer_child_age": "1-3y"
+    },
+    {
+      "id": 42,
+      "text": "ابني تحركه مرة من حزام الأمان، التعديل صعب.",
+      "rating": 2,
+      "language": "ar",
+      "verified_purchase": false,
+      "helpful_votes": 11,
+      "date": "2024-10-02",
+      "reviewer_child_age": "1-3y"
+    }
+  ]
+}
