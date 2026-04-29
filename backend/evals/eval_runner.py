@@ -3,7 +3,9 @@
 Usage:
   uvicorn main:app --port 8000   # in another terminal
   python -m evals.eval_runner
+  python -m evals.eval_runner --only TC01,TC04,TC08,TC14,TC15
 """
+import argparse
 import asyncio
 import json
 import os
@@ -145,7 +147,21 @@ async def execute_case(client: httpx.AsyncClient, case: dict) -> tuple[int, str]
 
 
 async def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--only", help="Comma-separated case IDs to run (e.g. TC01,TC08,TC15)")
+    args = parser.parse_args()
+
     cases = json.loads(TEST_CASES.read_text(encoding="utf-8"))
+    if args.only:
+        wanted = {c.strip().upper() for c in args.only.split(",") if c.strip()}
+        cases = [c for c in cases if c["id"].upper() in wanted]
+        if not cases:
+            print(f"No cases matched --only={args.only}. Available IDs:")
+            for c in json.loads(TEST_CASES.read_text(encoding="utf-8")):
+                print(f"  {c['id']:<6} {c['name']}")
+            sys.exit(2)
+        print(f"Running {len(cases)} case(s): {', '.join(c['id'] for c in cases)}")
+
     rows = []
     total_score = 0.0
     max_score = 0.0
